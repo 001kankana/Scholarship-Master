@@ -1,0 +1,19 @@
+#carouselExampleControls{
+  max-height: 550px;
+  /* max-width: 100%; */
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin:  30px 10%;
+  cursor: default;
+}
+.carousel-item img{
+    max-height: 500px;
+    margin: 0;
+}
+
+#header{
+    text-align: center;
+    margin: 10px 0;
+    color:#21325E;
+}
+
+

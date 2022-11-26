@@ -1,0 +1,63 @@
+.navbar{
+    margin: 13px 10%;
+    background-color: teal;
+    color: white;
+    display: flex;
+    /* border-radius: 7px; */
+  font-size: calc(10px + 1vmin);
+    
+    justify-content: flex-start;
+}
+.navbar a{
+    cursor:context-menu;
+    padding: 6px 14px 9px 14px;
+    bottom: 0;
+    
+    /* border-radius: 5px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* background-color: #21325E; */
+    text-decoration: none;
+    color: #FFC900;
+ }
+
+.navText{
+    margin:0 10% ;
+}
+#accordionFlushExample{
+    display: none;
+}
+
+.accordion-body{
+  
+    display: flex;
+    
+    flex-direction: column;
+  }
+.accordion-body button{
+    border: none;
+    text-align: start;
+    padding: 4px 20px;
+    
+    font-size: 18px;
+    
+}
+    @media screen and (max-width:480px) {
+    #accordionFlushExample{
+        display: block;
+    }
+   
+  
+   
+    .navbar{
+        display: none;
+    }
+    .accordion-button{
+        background-color: #168da0;
+
+        color: white;
+        font-size: 23px;
+        transition: all 0.4s;
+    }
+    
+}
